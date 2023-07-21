@@ -1,0 +1,66 @@
+/* Universal Style */
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+
+
+
+/* Common Style */
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+/* Header Part */
+/* =================== */
+
+
+.header-background {
+    width: 100%;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    margin-bottom: 0;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 634px;
+}
+
+.header-image{
+    height: 800px;
+    width: 635px;
+    margin-top: 50px;
+    margin-left: 97px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 240px;
+}
