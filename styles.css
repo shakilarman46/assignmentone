@@ -20,6 +20,10 @@ body {
     font-weight: 700;
 }
 
+.primary-color {
+    color: #E55473;
+}
+
 
 
 /* Header Part */
@@ -91,9 +95,7 @@ body {
     margin-bottom: 0;
 }
 
-.primary-color {
-    color: #E55473;
-}
+
 
 .deal-description {
     color: rgba(39, 39, 39, 0.60);
@@ -139,9 +141,57 @@ body {
     margin-bottom: 48px;
 }
 
-.insta-image-container{
+.insta-image-container {
     display: flex;
     gap: 24px;
     justify-content: space-between;
     margin: 0 240px;
+}
+
+/* Latest Deal Part */
+/* ================== */
+
+.latest-deal-container {
+    background-image: url('images/Rectangle\ 9.png');
+    margin: 0 240px;
+    height: 449px;
+    width: 1440px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.latest-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+input{
+color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-weight: 400;
+border: 0;
+border-radius: 5px;
+padding: 22px 22px;
+width: 513px;
+}
+
+.subscribe{
+    text-align: center;
 }
