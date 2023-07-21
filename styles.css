@@ -51,16 +51,62 @@ body {
     width: 634px;
 }
 
-.header-image{
+.header-image {
     height: 800px;
     width: 635px;
     margin-top: 50px;
     margin-left: 97px;
 }
 
-.header-content{
+.header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 240px;
+}
+
+
+
+/* Hot Deal Part */
+/* ====================== */
+
+.deal-background {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 400px;
+    padding: 100px 0;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.primary-color {
+    color: #E55473;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 594px;
+    margin-right: 186px;
+}
+.deal-btn{
+    text-align: center;
 }
