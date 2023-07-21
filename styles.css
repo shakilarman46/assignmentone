@@ -75,7 +75,7 @@ body {
     background: rgba(229, 84, 115, 0.05);
 }
 
-.deal-container{
+.deal-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,12 +101,47 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
     margin-top: 24px;
     margin-bottom: 32px;
-    width: 594px;
+
+}
+
+.deal-btn {
+    text-align: center;
+}
+
+.deal-text-area {
     margin-right: 186px;
 }
-.deal-btn{
+
+
+/* Instagram Part */
+/* ================ */
+
+.insta-title {
+    color: #272727;
     text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+    margin-bottom: 24px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 594px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 48px;
+}
+
+.insta-image-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 0 240px;
 }
